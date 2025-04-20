@@ -381,13 +381,13 @@
   </div>
 
 
-  @include('layouts.header')
+  @include('components.header')
 
   @yield('content')
 
 
   <hr class="mt-5 text-secondary" />
- @include('layouts.footer')
+ @include('components.footer')
 
   <footer class="footer-mobile container w-100 px-5 d-md-none bg-body">
     <div class="row text-center">

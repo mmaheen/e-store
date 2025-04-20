@@ -20,6 +20,13 @@ class DatabaseSeeder extends Seeder
             'password' => '12345678'
         ]);
 
+        User::factory()->create([
+            'name' => 'Setu',
+            'email' => 'setu@gmail.com',
+            'role' => 'guest',
+            'password' => '12345678'
+        ]);
+
         User::factory(10)->create();
 
     }
