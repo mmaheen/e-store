@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US">
 
 <head>
-  <title>Surfside Media</title>
+  <title>E-Store - @yield('title')</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="author" content="surfside media" />
@@ -381,13 +381,13 @@
   </div>
 
 
-  @include('components.header')
+  @include('components.website.header')
 
   @yield('content')
 
 
   <hr class="mt-5 text-secondary" />
- @include('components.footer')
+ @include('components.website.footer')
 
   <footer class="footer-mobile container w-100 px-5 d-md-none bg-body">
     <div class="row text-center">
